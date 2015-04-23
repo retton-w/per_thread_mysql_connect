@@ -25,6 +25,13 @@ struct my_serv_info {
     int     serv_port;
 };
 
+/** 
+ * @fn:     MYSQL *get_mysql(struct my_serv_info *info);
+ * @brief:  get posix thread specified mysql connection 
+ * @brief:  Author/Date: retton/2015-04-23
+ * @param:  info
+ * @return: NULL if connect error
+ */
 MYSQL *get_mysql(struct my_serv_info *info);
 
 #endif ///< __MYSQL_CONN_H__
