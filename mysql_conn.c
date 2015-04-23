@@ -66,7 +66,6 @@ MYSQL *get_mysql(struct my_serv_info *info)
             return NULL;
         }
     } else {
-        //if (0 != mysql_query(mysql, "DO 1")) {
         //use mysql_ping to check the connection ok or not
         if (0 != mysql_ping(mysql)) {
             printf("mysql disconnect!\n");
