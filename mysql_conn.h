@@ -13,8 +13,6 @@
 
 #include <mysql/mysql.h>
 
-#define NAME_LEN (256)
-
 /** 
  * @name:   my_serv_info
  * @brief:  required information to connect mysqld

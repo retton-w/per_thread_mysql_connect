@@ -1,1 +1,3 @@
 Realize one permanent mysql connection to mysqld for every needed posix thread.
+NOTE:
+1. Must complied with -lmysqlclient and -lpthread
